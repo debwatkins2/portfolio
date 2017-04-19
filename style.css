@@ -284,23 +284,23 @@ footer p {
 }
 #footer-third {
   	border-right: 2px solid #d1caca;
-  	max-height: 250px;
-  	min-height: 175px;
+  	height: 250px;
 }
-footer a {
-  	color: #d1caca;
-  	text-decoration: none;
-}
+
 .social li {
 	  display: inline;
 }
 .social i {
-  	font-size: 275%;
+  	font-size: 200%;
   	color: #d1caca;
-    padding: 2% 4%;
+    padding: 2% 5%;
+
 }
 .social i:hover {
 	  color: #7eddd9;
+}
+h5 a {
+    color: #d1caca;
 }
 h5 a:hover {
   	text-decoration: none;
@@ -416,14 +416,20 @@ h5 a:hover {
       width: 100%;
       padding-bottom: 3%;
       border-bottom: 2px solid #d1caca;
-
+    }
+    # footer-third-last h5 {
+      color: #76bcb9;
+    }
+    #footer-third-last a {
+      text-decoration: none;
     }
     .social li {
     	  display: inline;
+
     }
     .social i {
         color: #d1caca;
-      	font-size: 200%;
+      	font-size: 150%;
         padding: 2% 4%;
     }
 }
