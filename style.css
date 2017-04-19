@@ -276,6 +276,7 @@ footer h3 {
 	  color: #d1caca;
     text-align: center;
     margin-top: 7%;
+    text-decoration: none;
 }
 footer p {
   	color: #d1caca;
@@ -286,7 +287,6 @@ footer p {
   	border-right: 2px solid #d1caca;
   	height: 250px;
 }
-
 .social li {
 	  display: inline;
 }
@@ -294,27 +294,25 @@ footer p {
   	font-size: 200%;
   	color: #d1caca;
     padding: 2% 5%;
-
 }
 .social i:hover {
 	  color: #7eddd9;
 }
-h5 a {
+#footer-third-last a {
+    text-decoration: none;
     color: #d1caca;
 }
-h5 a:hover {
-  	text-decoration: none;
-  	color: #7eddd9;
+#footer-third-last a:hover {
+    color: #7eddd9;
 }
 /* footer second start */
 
 .second p {
     font-size: 90%;
-  	height: 60px;
+  	height: 80px;
     opacity: .6;
     margin-top: -1%;
     margin-bottom: -1%;
-
 }
 /* Media Queries start */
 
