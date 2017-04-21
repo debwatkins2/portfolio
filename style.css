@@ -301,27 +301,6 @@ footer {
 .social i:hover {
 	  color: #7eddd9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer-third-last {
     width: 33%;
     height: 250px;
@@ -347,6 +326,12 @@ footer {
     opacity: .6;
     border-top: 2px solid #d1caca;
 }
+
+
+
+
+
+
 
 /* Media Queries start */
 
@@ -395,7 +380,7 @@ footer {
         margin-bottom: 20%;
     }
     #about {
-        width: 80%;
+        width: 90%;
     }
     li.span  {
         display: none;
@@ -410,11 +395,11 @@ footer {
     }
     .container2 p {
         font-size: 140%;
+
     }
     .container2 li {
         text-align: left;
-        width: 80%;
-        margin-bottom: -2%;
+        width: 90%;
         margin-left: 10%;
     }
     .oval-image {
@@ -475,12 +460,15 @@ footer {
       margin-bottom: -4%;
     }
     .social li {
+        color: #d1caca;
     	  display: inline;
         padding-right: 3%;
     }
     .social i {
+        color: #d1caca;
       	font-size: 275%;
         padding: 0% 4%;
+        margin-top: 3%;
     }
     #footer-third-last {
       width: 100%;
