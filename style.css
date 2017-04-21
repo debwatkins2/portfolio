@@ -180,14 +180,11 @@ a:hover, .current {
     text-align: left;
     margin-left: 5%;
 }
-
 /* end of navigation and header styling */
-
  .clearfix {
      clear: both;
      padding: 2%;
  }
-
 /* Skills and Experience section */
 .container {
     background-image: url(img/desktop.png);
@@ -240,18 +237,15 @@ a:hover, .current {
 .one-third-one {
     width: 30%;
     display: inline-block;
-
-
 }
 .one-third-one img {
-    height: 275px;
+    height: 300px;
     width: 90%;
 	  padding: 2%;
     background-color: white;
     margin-left: 2%;
-    border-radius: 5%;
     display: inline-block;
-    box-shadow: 5px 5px 3px #595454;
+    box-shadow: 6px 6px 3px #595454;
 }
 .one-third-one h3 {
     margin-top: 5%;
@@ -268,9 +262,7 @@ p  {
 p .smaller {
     text-align: center;
 }
-
 /* beginning footer section */
-
 footer {
   	background: #333;
   	overflow: hidden;
@@ -281,57 +273,79 @@ footer {
     height: 250px;
   	margin: 0 auto;
 }
-#footer-third h3 {
-    text-align: left;
-    margin-top: 8%;
-}
-#footer-third-last h3 {
-    text-align: left;
-    margin-top: 8%;
-}
 #footer-third {
   	width: 33%;
     border-right: 2px solid #d1caca;
     height: 250px;
 }
-#footer-third-last {
-    width: 33%;
-}
-footer h3 {
-	  color: #d1caca;
+#footer-third h3 {
+    color: #d1caca;
     text-align: center;
-    text-decoration: none;
+    margin-top: 8%;
+    margin-left: -5%;
 }
-footer p {
-  	color: #d1caca;
-  	text-align: center;
+#footer-third p {
+    color: #d1caca;
 }
 .social li {
-	  display: inline;
+    display: inline;
 }
 .social i {
-  	font-size: 300%;
-  	color: #d1caca;
-    padding: 2% 5%;
+    font-size: 275%;
+    color: #d1caca;
+    padding-left: 1.5%;
+    padding-right: 5%;
+    margin-top: -19%;
+    box-sizing: border-box;
 }
 .social i:hover {
 	  color: #7eddd9;
 }
-#footer-third-last a {
-    text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-third-last {
+    width: 33%;
+    height: 250px;
+}
+#footer-third-last h3 {
+    text-align: left;
+    margin-top: 8%;
     color: #d1caca;
+}
+#footer-third-last a {
+    color: #d1caca;
+    text-decoration: none;
 }
 #footer-third-last a:hover {
     color: #7eddd9;
 }
-
 /* footer second start */
 
 .second p {
     font-size: 90%;
+    color: #d1caca;
+  	text-align: center;
     opacity: .6;
     border-top: 2px solid #d1caca;
-    height: 50px;
 }
 
 /* Media Queries start */
@@ -450,8 +464,6 @@ footer p {
 		}
     #footer-third {
       width: 100%;
-      margin-top: -4%;
-      padding-bottom: 7%;
       border-bottom: 2px solid #d1caca;
     }
     #footer-third h5 {
@@ -460,35 +472,38 @@ footer p {
     #footer-third h3 {
       text-align: center;
       margin-left: -4%;
-    }
-    #footer-third-last {
-      width: 98%;
-      margin-top: -4%;
-      padding-bottom: 10%;
-    }
-    #footer-third-last h5 {
-      margin-right: -4%;
-      margin-top: 5%;
-      margin-bottom: 10%;
-    }
-    #footer-third-last a {
-      text-decoration: none;
+      margin-bottom: -4%;
     }
     .social li {
     	  display: inline;
         padding-right: 3%;
     }
     .social i {
-        color: #d1caca;
       	font-size: 275%;
-        padding: 2% 4%;
-
+        padding: 0% 4%;
+    }
+    #footer-third-last {
+      width: 100%;
+      border-bottom: 2px solid #d1caca;
+    }
+    #footer-third-last h3 {
+      margin-top: 4%;
+      margin-left: 43%;
+      margin-bottom: 3%;
     }
     .second p {
-        margin-top: 15%;
         border: none;
     }
 }
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 482px) {
 
 		h3 {
