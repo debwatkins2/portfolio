@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-  background-color: #76bcb9;
+  background-color: #89bfd3;
   opacity: .9;
   color: #190a0a;
   font-family: 'Raleway', sans-serif;
@@ -53,7 +53,7 @@ img {
 }
 /* Header Section - menu buttons */
 header  {
-    background-color: #76bcb9;
+    background-color: #89bfd3;
     max-height: 100px;
     padding-top: 2%;
     position: relative;
@@ -66,7 +66,7 @@ header  {
 #header-inner {
     max-width: 1200px;
     margin: 0 auto;
-    background: #76bcb9;
+    background: #89bfd3;
 }
 nav {
     float: right;
@@ -83,7 +83,7 @@ button  {
     border-radius: 70%;
     background-color: white;
     border: 4px solid #d1caca;
-    box-shadow: 5px 5px 3px #888888;
+    box-shadow: 5px 5px 3px #595454;
     margin-right: 5%;
 }
 ul  {
@@ -112,7 +112,7 @@ a:hover, .current {
     width: 100%;
     height: 700px;
     padding-top: 8%;
-    background-color: #76bcb9;
+    background-color: #89bfd3;
     margin: 0 auto;
 }
 .title  {
@@ -144,62 +144,69 @@ a:hover, .current {
     text-align: left;
     font-family: 'Raleway';
     color: #190a0a;
-    float: right:
-}
-aside {
-    float: left;
-    width: 35%;
-    padding: 2%;
-
 }
 .oval-image {
-    margin-top: 30%;
+    width: 250px;
+    height: auto;
+    margin-top: 12%;
     border-radius: 70%;
-}
-#about {
-    margin-top: 8%;
-    font-size: 220%;
-    color: #190a0a;
-    font-family: 'Raleway';
-    font-weight: 500;
-    text-align: center;
-}
-#about li {
-    margin-top: 2%;
-}
-span  {
-    font-size: 125%;
-    font-weight: 500;
-}
-
-article {
+    box-shadow: 4px 4px 2px #595454;
     float: right;
-    width: 50%;
-    padding: 4%;
+    margin-right: 6%;
+}
+.container2 {
+  background-image: url(img/farm.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 84%;
+  height: 700px;
+  z-index: 1;
+  margin-top: 15%;
+  margin-left: 8%;
+}
+.about1 {
+    font-size: 225%;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+}
+.about3 {
+    font-size: 175%
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
 }
 
 /* end of navigation and header styling */
 
- /* Start inner wrapper */
-
- #inner-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
- }
  .clearfix {
      clear: both;
      padding: 2%;
  }
 
 /* Skills and Experience section */
-
+.container {
+    background-image: url(img/desktop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    margin-top: 40%;
+}
 .one-third {
     width: 30%;
     height: 35%;
     float: left;
 }
 .square {
-    margin: 0 0 3% 37.5%;
+    margin: -10% 0 3% 37.5%;
     width: 100px;
     height: 100px;
     background: white;
@@ -207,34 +214,45 @@ article {
     margin-left: 55%;
 }
 .one-third h3 {
+    margin-top: 55%;
     margin-left: 38%;
 
 }
 .one-third i {
-  	color: #76bcb9;
-    opacity: .9;
+  	color: #89bfd3;
+    opacity: .7;
   	font-size: 400%;
   	padding: 20%;
 }
 .dev-skills li {
-    font-size: 130%;
+    font-size: 170%;
+    font-weight: 500;
+    color: black;
     text-align: center;
     margin-left: 28%;
+    margin-top: -8%;
+    margin-bottom: -11%;
+    z-index: 100;
 }
-
   /* start styling projects section */
+#projects h1 {
+    margin-top: 7%;
+}
 .one-third-one {
-    width: 48%;
+    width: 30%;
     display: inline-block;
+
 
 }
 .one-third-one img {
-    height: 425px;
+    height: 275px;
     width: 90%;
 	  padding: 2%;
     background-color: white;
+    margin-left: 2%;
     border-radius: 5%;
     display: inline-block;
+    box-shadow: 5px 5px 3px #595454;
 }
 .one-third-one h3 {
     margin-top: 5%;
@@ -253,12 +271,7 @@ p .smaller {
 }
 
 /* beginning footer section */
-#footer-third h3 {
-    margin-left: -1%;
-}
-#footer-third-last h3 {
-    margin-left: -3%;
-}
+
 footer {
   	background: #333;
   	overflow: hidden;
@@ -266,32 +279,39 @@ footer {
 }
 #footer-inner {
   	max-width: 1200px;
+    height: 250px;
   	margin: 0 auto;
 }
-footer .one-third {
+#footer-third h3 {
+    text-align: left;
+    margin-top: 8%;
+}
+#footer-third-last h3 {
+    text-align: left;
+    margin-top: 8%;
+}
+#footer-third {
   	width: 33%;
-  	margin: 2% 0;
+    border-right: 2px solid #d1caca;
+    height: 250px;
+}
+#footer-third-last {
+    width: 33%;
 }
 footer h3 {
 	  color: #d1caca;
     text-align: center;
-    margin-top: 7%;
     text-decoration: none;
 }
 footer p {
   	color: #d1caca;
   	text-align: center;
-    margin-bottom: 2%;
-}
-#footer-third {
-  	border-right: 2px solid #d1caca;
-  	height: 250px;
 }
 .social li {
 	  display: inline;
 }
 .social i {
-  	font-size: 200%;
+  	font-size: 300%;
   	color: #d1caca;
     padding: 2% 5%;
 }
@@ -305,15 +325,16 @@ footer p {
 #footer-third-last a:hover {
     color: #7eddd9;
 }
+
 /* footer second start */
 
 .second p {
     font-size: 90%;
-  	height: 80px;
     opacity: .6;
-    margin-top: -1%;
-    margin-bottom: -1%;
+    border-top: 2px solid #d1caca;
+    height: 50px;
 }
+
 /* Media Queries start */
 
 @media screen and (max-width: 778px) {
@@ -348,7 +369,7 @@ footer p {
       font-size: 350%;
       width: 100%;
       line-height: 110%;
-      margin-top: 15%;
+      margin-top: 5%;
     }
     li.title-two  {
         font-size: 185%;
@@ -357,23 +378,44 @@ footer p {
     }
     li.title-three {
         font-size: 120%;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    #about {
+        width: 80%;
     }
     li.span  {
         display: none;
     }
-    article	{
-			width: 45%;
-			padding: 2%;
-			margin: 0;
-		}
-		aside {
-      margin-bottom: 5%;
-			width: 45%;
-		}
+    .container2 {
+      width: 100%;
+      height: 400px;
+      z-index: 1;
+      margin-top: 21%;
+      margin-left: -.1%;
+      margin-right: 2%;
+    }
+    .container2 p {
+        font-size: 140%;
+    }
+    .container2 li {
+        text-align: left;
+        width: 80%;
+        margin-bottom: -2%;
+        margin-left: 10%;
+    }
+    .oval-image {
+        display: none;
+    }
     .one-third {
-        width: 30%;
-        margin: none;
+        width: 29.5%;
         float: left;
+    }
+    .container {
+        margin-top: 40%;
+    }
+    .container h3 {
+        margin-top: 40%;
     }
     .square {
         margin-left: 46%;
@@ -385,7 +427,9 @@ footer p {
       	padding: 20%;
     }
     .dev-skills li  {
-      margin-left: 15%;
+      font-size: 150%;
+      margin-left: 5%;
+      margin-top: 1%;
     }
 /* projects section styling */
     #projects h6 {
@@ -394,41 +438,56 @@ footer p {
         margin-left: 20%;
     }
     .one-third-one {
-        width: 90%;
+        width: 94%;
+        margin-right: 2%;
     }
     .one-third-one img {
         height: 400px;
-        width: 90%;
+        width: 94%;
     	  padding: 2%;
     }
 		h4	{
 			font-size: 140%;
 		}
-
     #footer-third {
       width: 100%;
-      padding-bottom: 3%;
+      margin-top: -4%;
+      padding-bottom: 7%;
       border-bottom: 2px solid #d1caca;
+    }
+    #footer-third h5 {
+      margin-left: 4%;
+    }
+    #footer-third h3 {
+      text-align: center;
+      margin-left: -4%;
     }
     #footer-third-last {
-      width: 100%;
-      padding-bottom: 3%;
-      border-bottom: 2px solid #d1caca;
+      width: 98%;
+      margin-top: -4%;
+      padding-bottom: 10%;
     }
-    # footer-third-last h5 {
-      color: #76bcb9;
+    #footer-third-last h5 {
+      margin-right: -4%;
+      margin-top: 5%;
+      margin-bottom: 10%;
     }
     #footer-third-last a {
       text-decoration: none;
     }
     .social li {
     	  display: inline;
-
+        padding-right: 3%;
     }
     .social i {
         color: #d1caca;
-      	font-size: 150%;
+      	font-size: 275%;
         padding: 2% 4%;
+
+    }
+    .second p {
+        margin-top: 15%;
+        border: none;
     }
 }
 @media screen and (max-width: 482px) {
@@ -444,9 +503,10 @@ footer p {
 			font-size: 115%;
 		}
     .title-one {
-        font-size: 125%;
+        font-size: 110%;
         line-height: 110%
         padding: 5%;
+        margin-bottom: 5%;
         margin-left: -3%;
         width: 100%;
     }
@@ -455,14 +515,11 @@ footer p {
         width: 100%
         padding: 3%;
     }
-    aside {
-        margin-top: 3%;
-        margin-left: -2%;
-        width: 100%;
+    .container h3 {
+        display: none;
     }
-    article {
-        width: 100%;
-        padding: 3%;
+    .container img {
+        height: 650px;
     }
     .title-three {
         font-size: 75%;
@@ -471,9 +528,11 @@ footer p {
     }
     .square {
         margin-left: 22%;
+        margin-top: 8%;
     }
     .dev-skills li {
         margin-left: -3%;
+        margin-top: 20%;
     }
     .square {
         margin-left: 22%;
@@ -500,3 +559,6 @@ footer p {
     #footer-third-last h3 {
 	      text-align: center;
 		}
+    .second p {
+        margin-bottom: 2%;
+    }
