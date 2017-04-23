@@ -143,9 +143,6 @@ a:hover, .current {
     margin-left: -40%;
     opacity: .7;
 }
-.resume.launch {
-    border: none;
-}
 .resume a {
     color: #190a0a;
     text-decoration: none;
@@ -236,7 +233,7 @@ a:hover, .current {
 .dev-skills li {
      font-size: 170%;
      font-weight: 500;
-     color: black;
+     color: #204968;
      text-align: center;
      margin-left: 28%;
      margin-top: -8%;
@@ -312,7 +309,7 @@ footer {
        box-sizing: border-box;
 }
 .social i:hover {
-	     color: #7eddd9;
+	     color: #204968;
 }
 #footer-third-last {
        width: 33%;
@@ -328,7 +325,7 @@ footer {
        text-decoration: none;
 }
 #footer-third-last a:hover {
-      color: #7eddd9;
+      color: #204968;
 }
 /* footer second start */
 .second {
@@ -377,7 +374,11 @@ footer {
         margin-bottom: 20%;
     }
     #about {
-        width: 90%;
+        width: 100%;
+    }
+    .resume {
+        margin-top: 60%;
+        margin-right: -6%;
     }
     li.span  {
         display: none;
@@ -500,41 +501,39 @@ footer {
 		h4	{
 			    font-size: 115%;
 		}
-    .title li .title-one {
-          font-size: 175%;
-          line-height: 110%
-          padding: 5%;
-          margin-top: 5%;
-          margin-bottom: 5%;
+    .title-one {
+          font-size: 125%;
           margin-left: -3%;
-          width: 100%;
     }
     .title-two {
-          font-size: 50%;
-          width: 100%
-          padding: 3%;
+          font-size: 95%;
+          margin-left: -3%;
           margin-bottom: 10%;
+    }
+    .resume {
+          margin-top: 200%;
+          margin-right: -5%;
     }
     .container2 {
           width: 100%;
-          height: 500px;
-          margin-bottom: 20%;
+          height: 400px;
+          margin-bottom: 40%;
     }
     .container {
           width: 100%;
-          height: 500px;
-          margin-bottom: 20%;
+          height: 400px;
+          margin-bottom: 40%;
     }
     .container h3 {
           display: none;
     }
     .container2 img {
           width: 100%;
-          height: 500px;
+          height: 400px;
     }
     .container img {
           width: 100%;
-          height: 500px;
+          height: 400px;
     }
     .title-three {
           font-size: 75%;
@@ -577,6 +576,6 @@ footer {
           margin-left: -6%;
 		}
     .second p {
-          font-size: .9%;
+          font-size: 75%;
           margin-bottom: 2%;
     }
